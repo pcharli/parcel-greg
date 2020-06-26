@@ -1,0 +1,27 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "Découvrir Parcel",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "buildsubfolder": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.9"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "bulma": "^0.9.0",
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-loader": "^1.0.2"
+  }
+}

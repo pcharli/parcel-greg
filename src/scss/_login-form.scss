@@ -1,0 +1,14 @@
+.login-form {
+    width: $demi-col;
+    &__input {
+        border: none;
+        background-color: $inputBack;
+        &:focus {
+            @extend .login-button
+        }
+    }
+    .login-button {
+        background: rgba($jaune, .5);
+    }
+}
+
